@@ -1,8 +1,10 @@
-import Navbar from "./navbar";
+
 
 export default function ProfilePage(){
     return (
-        <Navbar></Navbar>
+        <div>
+            <h1>Profile Pages</h1>
+        </div>
 
 
     );
