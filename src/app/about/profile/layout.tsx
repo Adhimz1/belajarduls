@@ -1,7 +1,11 @@
-export default function AboutLayout () {
+
+import React from 'react';
+
+export default function ProfileLayout ({children} : {children: React.ReactNode}){
     return (
-        <nav>
-            <h1>test</h1>
-        </nav>
+        <>
+            <h1>title</h1>
+        <div>{children}</div>
+        </>
     );
 }
