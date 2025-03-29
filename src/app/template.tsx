@@ -4,8 +4,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
     const [state, setState] = useState(0);
     return (
     <div>
-        <h1>Hellow World {state}</h1>
-        <button onClick={() => setState(state + 1)}>Klik</button>
+        <h1 className="text-2xl font-bold">Template</h1>
         {children}
     </div>
     );
