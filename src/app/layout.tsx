@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const disableNavbar = ["/login", "/register"];
+const disableNavbar = ["/login", "/register", "/forgotpw"];
 
 export default function RootLayout({
   children,

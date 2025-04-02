@@ -48,9 +48,10 @@ export default function LoginPage() {
                 />
                 Remember me
               </label>
-              <a href="#" className="text-sm text-blue-600 hover:underline dark:text-blue-400">
+              <Link href="/forgotpw"
+               className="text-sm text-blue-600 hover:underline dark:text-blue-400">
                 Forgot password?
-              </a>
+              </Link>
             </div>
             <button
               type="submit"
